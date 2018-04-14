@@ -1,0 +1,428 @@
+/*MEDIAQUERIES*/
+@media all and (max-width: 991.98px){
+  #navigation #myNavbar ul a:after{
+    display:none;
+  }
+  .centerContent{
+    justify-content: center;
+  }
+  #hunter h3{
+    font-size: 16px;
+  }
+  .smallText{
+    display: none;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  .orangeCursive{
+    display: none;
+  }
+  #ring .card-header{
+    font-size: 15px !important;
+  }
+}
+/*Font*/
+@font-face {
+    font-family: titleBold;
+    src: url(./font/anicb.ttf);
+}
+@font-face {
+    font-family: title;
+    src: url(./font/anirm.ttf);
+}
+
+@font-face{
+    font-family: symbole;
+    src: url(./font/tngani.ttf);
+}
+
+@font-face {
+    font-family: texte;
+    src: url(./font/partybusiness.ttf);
+}
+/*General*/
+body{
+  font-family: texte;
+}
+.container-fluid{
+  padding: 40px 20px;
+}
+.center{
+  text-align: center;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+.marginBottom{
+  margin-bottom: 30px;
+}
+.marginUp{
+  margin-top: 20px;
+}
+.col-xl-10{
+  padding: 0;
+}
+.lineOrangeTop{
+  border-top: 4px solid rgb(238, 122, 56);
+}
+.lineOrangeBottom{
+  border-bottom: 4px solid rgb(238, 122, 56);
+}
+.margin-left{
+  margin-left: 20px;
+}
+.orangeCursive{
+  color: rgb(238, 122, 56);
+  font-family: symbole;
+  font-size: 25px;
+}
+img{
+  max-width: 100%;
+}
+h2{
+  display: inline;
+  font-family: title;
+  color: black;
+  font-size: 25px;
+  margin: 0 10px;
+  padding-top: 5px;
+}
+.orange{
+  color: rgb(238, 122, 56) ;
+}
+/*Navbar*/
+.navbar{
+  padding: 8px;
+}
+.navabar>a{
+  padding: 0;
+}
+#navigation{
+  padding: inherit;
+}
+#navigation nav{
+  background: rgb(238, 122, 56) ;
+}
+#navigation li{
+  margin-right: 5px;
+  text-align: center;
+}
+#navigation li a{
+  color: white;
+  font-family: title;
+}
+#navigation #myNavbar ul a:after{
+  position: absolute;
+  margin-left: 10px;
+  bottom:35%;
+  content: " ";
+  border-top: 8px solid white;
+  border-bottom: 8px solid white;
+  border-right:1px solid white;
+}
+#navigation #myNavbar ul li:last-child a:after{
+  display:none;
+}
+#navigation .fa-bars{
+  color: white;
+  font-size: 30px;
+}
+/*CAROUSEL*/
+#myCarousel{
+  padding: 0;
+}
+#myCarousel .container-fluid{
+  padding: inherit;
+}
+#myCarousel .carousel-caption{
+  bottom:38%;
+  font-family: texte;
+  text-align: left;
+}
+#myCarousel h1{
+  font-size: 5vw;
+}
+#myCarousel h5{
+  font-size: 3vw;
+}
+.slideIcon{
+  width: 4vw;
+  height: 4vw;
+}
+.sign{
+  position: absolute;
+  left:80%;
+  top: 60%;
+  font-size: 65rem
+}
+/*Fellows*/
+#fellows{
+  background: url(./integration_maquette_finale/_bg_light.png);
+  padding-bottom: 60px;
+}
+/*Fellows Card*/
+#fellows .card{
+  border: 8px solid black;
+  height: 450px;
+  width: 300px;
+  margin: 20px;
+}
+#fellows img{
+  height: 80%;
+}
+#fellows .card-body{
+  background: black;
+  padding: 5px;
+}
+#fellows .card-text{
+  font-size: 20px;
+  color: white;
+}
+
+#fellow .card .container{
+  padding: 0 30px;
+}
+.gim{
+  filter: brightness(0.2);
+}
+.wanted img{
+  opacity: 0.7;
+}
+.reward{
+  position: absolute;
+  z-index: 2;
+  top: 15px;
+  position: absolute;
+  text-align: center;
+  padding: 0 25px;
+}
+.reward p{
+  background: white;
+  border-radius: 10px;
+  font-size: 25px;
+  margin: 10px;
+}
+.leGrand{
+  position: absolute;
+  z-index: 2;
+  bottom: 23%;
+  text-align: center;
+}
+.leGrand h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.wanted:hover img{
+  opacity: 1;
+  transition: 1s;
+  filter: brightness(1);
+}
+.wanted:hover .reward{
+  opacity: 0;
+  transition: 0.6s;
+}
+
+.wanted:hover .leGrand{
+  transition: 0.8s;
+  bottom: 80%;
+}
+.wanted:hover .leGrand h1{
+  transition: 2s;
+  font-size: 40px;
+}
+.gimli{
+  background: inherit !important;
+  font-size: 60px !important;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: inherit !important;
+}
+.dead{
+  text-decoration-line: line-through;
+  text-decoration-color: rgb(238, 122, 56);
+}
+/*Fellows pills*/
+#fellows .nav-link{
+  font-family: title;
+  color: black;
+}
+#fellows .nav-item .active{
+  background: transparent;
+  color: rgb(238, 122, 56) ;
+  border-bottom: 5px solid rgb(238, 122, 56);
+}
+.smallText{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top:10px;
+}
+/*Reward*/
+#reward{
+  background: url(./integration_maquette_finale/_bg_dark.png);
+}
+
+#reward p{
+  font-family: texte;
+  color: white;
+}
+#reward h2{
+  color: white;
+}
+#reward img{
+  border-radius: 80px;
+}
+#reward .button{
+  color: rgb(238, 122, 56) ;
+  width:200px;
+  height: 50px;
+  font-size: 30px;
+  font-family: texte;
+  background: white;
+  transform: skewX(-20deg);
+  cursor: pointer;
+}
+#reward a{
+  text-decoration: none;
+  color: inherit;
+}
+#reward .button:hover{
+  background: rgb(238, 122, 56) ;
+  color: white;
+  transition: 0.8s;
+}
+
+#reward .row:nth-child(3){
+  height: 70px;
+}
+/*HUNTER*/
+#hunter{
+  background: url(./integration_maquette_finale/_bg_light.png);
+}
+
+#hunter .profile{
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+#hunter h3{
+  font-size: 20px;
+}
+#hunter p{
+  background: rgb(20,20,20);
+  cursor: pointer;
+  width: 70px;
+  color: white;
+  border-radius: 5px;
+}
+/*THE RING*/
+#ring{
+  background: url(./integration_maquette_finale/_bg_dark.png);
+}
+#ring h2{
+  color: white;
+}
+#ring .card-header{
+  font-size: 18px;
+  font-weight: bold;
+  font-family: title;
+}
+#ring .card{
+  margin: 10px 10px;
+  width: 100%;
+  border-bottom: 4px solid rgb(238,122, 56);
+  border-radius: 10px 10px 0 0;
+}
+#ring .card-header{
+  background: rgb(238,122, 56);
+}
+#ring .card-body h5{
+  font-size: 26px;
+}
+#ring .card-body p{
+  font-size: 20px;
+}
+#ring table{
+  margin-top: 20px;
+}
+#ring .card img{
+  border-radius: 100%;
+}
+#ring td{
+  font-size: 20px;
+}
+#ring th{
+  border-top:inherit;
+  border-bottom: 4px solid black;
+}
+#ring th{
+  font-size: 25px;
+  font-weight: bold;
+  padding:inherit;
+}
+/*JOIN*/
+#join{
+  color:black;
+  background: url(./integration_maquette_finale/_bg_light.png);
+}
+#join img{
+  margin: 10px;
+}
+#join .button{
+  width:300px;
+  background: rgb(20,20,20);
+  height: 60px;
+  font-size: 25px;
+  border: inherit;
+  letter-spacing: 1px;
+  transform: skewX(-20deg);
+  cursor: pointer;
+}
+#join h3{
+  font-family: title;
+  font-size: 20px;
+}
+
+#join .button p{
+  padding-top: 10px;
+}
+
+#join .button:hover{
+  background: rgb(238, 122, 56) ;
+  color: black;
+  transition: 0.8s;
+}
+
+/*CONTACT*/
+#contact{
+  background: url(./integration_maquette_finale/_bg_dark.png);
+}
+#contact h2{
+  color: white;
+  font-family: title;
+}
+/*FOOTER*/
+footer{
+  background: rgb(238,122, 56);
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+footer a{
+  font-family: title;
+  font-size: 12px;
+  color: white;
+}
+footer a:hover{
+  color: black;
+  text-decoration: underline black;
+  text-underline-position: under;
+  transition: 0.8s;
+}
+footer .row{
+  margin-bottom: 15px;
+}
+footer img{
+  margin-top: 10px;
+}

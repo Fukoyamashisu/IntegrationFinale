@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <title>FindThePrecious.com</title>
+</head>
+
+<body>
+  <div class="col-xl-10 offset-xl-1">
+    <div id="navigation" class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand">
+          <img src="./integration_maquette_finale/_logo.png" alt="FindThePrecious">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#fellows">Fellows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ring">The Ring</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reward">Reward</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hunter">Hunters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#join">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <section id="myCarousel">
+      <div class="container-fluid">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="./integration_maquette_finale/_dark_vador.jpg" alt="First slide">
+              <div class="carousel-caption">
+                <h1>Sauron is a very good bro,</h1>
+                <h5>please help him to find his ring</h5>
+                <h5 class="sign">- d.v.</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./integration_maquette_finale/communaute.jpg" alt="Second slide">
+              <div class="carousel-caption">
+                <h1>Not ready for the War ?</h1>
+                <h5>no problem Sauron is ready !</h5>
+                <h5 class="sign">- g.d.</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="./integration_maquette_finale/tour.jpg" alt="Third slide">
+              <div class="carousel-caption">
+                <h1>Sauron's big eye,</h1>
+                <h5>no need to hide you, will find you</h5>
+                <h5 class="sign">- s.r.</h5>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon slideIcon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon slideIcon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="fellows">
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> Fellows wanted dead </h2><span class="smallText"> (or alive if you want to eat them later) </span><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row justify-content-center marginBottom">
+          <ul class="nav nav-pills nav-fill" role=tablist>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#mostWanted" role="tab" aria-controls="mostWanted" aria-selected="true">Most wanted</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="pill" href="#mostDangerous" role="tab" aria-controls="mostDangerous" aria-selected="true">Most dangerous</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="pill" href="#alreadyCaptured" role="tab" aria-controls="alreadyCaptured" aria-selected="true">Already captured</a>
+            </li>
+          </ul>
+        </div>
+        <div class="row justify-content-center">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade" id="mostWanted" role="tabpanel" aria-labelledby="mostWanted">
+              <div class="row justify-content-center">
+                <div class="card wanted">
+                  <img class="card-img-top" src="./integration_maquette_finale/_gandalf.png" alt="Card image cap">
+                  <div class="container reward">
+                    <p>reward<br/><span class="orange">1000</span> golden coins</p>
+                  </div>
+                  <div class="container container leGrand">
+                    <h1>Gandalf</h1>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">a very dangerous wizard, balrog killer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade show active" id="mostDangerous" role="tabpanel" aria-labelledby="mostDangerous">
+              <div class="row justify-content-center">
+                <div class="card wanted">
+                  <img class="card-img-top" src="./integration_maquette_finale/_gandalf.png" alt="Card image cap">
+                  <div class="container reward">
+                    <p>reward<br/><span class="orange">1000</span> golden coins</p>
+                  </div>
+                  <div class="container leGrand">
+                    <h1>Gandalf</h1>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">a very dangerous wizard, balrog killer</p>
+                  </div>
+                </div>
+                <div class="card wanted">
+                  <img class="card-img-top" src="./integration_maquette_finale/_aragorn.png" alt="Card image cap">
+                  <div class="container reward">
+                    <p>reward<br/><span class="orange">800</span> golden coins</p>
+                  </div>
+                  <div class="container leGrand">
+                    <h1>Aragorn</h1>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Sauron's finger says him his sword is dangerous...</p>
+                  </div>
+                </div>
+                <div class="card wanted">
+                  <img class="card-img-top gim" src="./integration_maquette_finale/_gimli.png" alt="Card image cap">
+                  <div class="container reward">
+                    <p class="gimli"><span class="orange">dead</span></p>
+                  </div>
+                  <div class="container leGrand">
+                    <h1 class="dead">Gimli</h1>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">a dwarf, which a beard and a an axe...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="alreadyCaptured" role="tabpanel" aria-labelledby="alreadyCaptured">
+              <div class="row justify-content-center">
+                <div class="card-deck">
+                  <div class="card wanted">
+                    <img class="card-img-top" src="./integration_maquette_finale/_aragorn.png" alt="Card image cap">
+                    <div class="container reward">
+                      <p>reward<br/><span class="orange">800</span> golden coins</p>
+                    </div>
+                    <div class="container leGrand">
+                      <h1>Aragorn</h1>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">Sauron's finger says him his sword is dangerous...</p>
+                    </div>
+                  </div>
+                  <div class="card wanted">
+                    <img class="card-img-top gim" src="./integration_maquette_finale/_gimli.png" alt="Card image cap">
+                    <div class="container reward">
+                      <p class="gimli"><span class="orange">dead</span></p>
+                    </div>
+                    <div class="container leGrand">
+                      <h1 class="dead">Gimli</h1>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">a dwarf, which a beard and a an axe...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reward">
+      <div class="row">
+        <div class="col-6 offset-3 lineOrangeTop"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> I have captured one of them, how to get my reward ? </h2><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus dapibus felis ac imperdiet. Maecenas venenatis leo a iaculis posuere. Integer vel vulputate nibh. Vestibulum hendrerit ex in lorem aliquet pulvinar. Sed pharetra enim
+              eleifend erat volutpat maximus. Nulla non facilisis nisi. Vestibulum lobortis, felis a ultrices interdum, urna sapien euismod metus, ut molestie ante neque nec lectus. Nulla auctor mauris sit amet augue hendrerit aliquam. </p>
+          </div>
+          <div class="col-4 center">
+            <img src="./integration_maquette_finale/_coin_sauron.png" alt="coinSauron">
+          </div>
+        </div>
+        <div class="row justify-content-center marginUp">
+          <a href="#contact">
+            <div class="button">
+              <div class="row justify-content-center">
+                Contact us
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3 lineOrangeBottom"></div>
+      </div>
+    </section>
+    <section id="hunter">
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> Our best Hunter </h2><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row" style="margin-top:40px">
+          <div class="col-md-6 marginBottom">
+            <div class="media">
+              <img class="align-self-center mr-3" src="./integration_maquette_finale/_hunter1.png" alt="ElvesKiller">
+              <div class="media-body align-self-center">
+                <h1 class="orange">ElvesKiller</h1>
+                <h3>2 captures - <span class="profile">profile</span></h3>
+                <p class="like"><i class="fas fa-thumbs-up"></i> 12 like</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 marginBottom">
+            <div class="media">
+              <img class="align-self-center mr-3" src="./integration_maquette_finale/_hunter2.png" alt="Goblin45">
+              <div class="media-body align-self-center">
+                <h1 class="orange">Goblin45</h1>
+                <h3>1 capture - <span class="profile">profile</span></h3>
+                <p class="like"><i class="fas fa-thumbs-up"></i> 18 like</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ring">
+      <div class="row">
+        <div class="col-6 offset-3 lineOrangeTop"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> About the ring </h2><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="card-header">
+              Ring capabilities
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">What can our master Sauron do wich his ring ?</h5>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Feature</th>
+                    <th>description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Main</td>
+                    <td>Rule them all !</td>
+                  </tr>
+                  <tr>
+                    <td>Invisibility</td>
+                    <td>You can't see me</td>
+                  </tr>
+                  <tr>
+                    <td>Power</td>
+                    <td>Destroy the world</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+            <div class="card-header">
+              Why the ring is awesome?
+            </div>
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-sm-8 marginBottom">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title">my preciooouuuuusssssss ! err errr, ! we want our preeecciiooouuussssss !!!!</h5>
+                    </div>
+                  </div>
+                  <div class="row justify-content-end">
+                    <div class="col-6">
+                      <p class="text-muted">- gollum</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4" style="text-align:center">
+                  <img src="./integration_maquette_finale/_gollum.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="join">
+      <div class="row">
+        <div class="col-6 offset-3 lineOrangeTop"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> Join Mordor Army, we need you ! </h2><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-7">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus dapibus felis ac imperdiet. Maecenas venenatis leo a iaculis posuere. Integer vel vulputate nibh. Vestibulum hendrerit ex in lorem aliquet pulvinar. Sed pharetra enim
+              eleifend erat volutpat maximus. Nulla non facilisis nisi. Vestibulum lobortis, felis a ultrices interdum, urna sapien euismod metus, ut molestie ante neque nec lectus. Nulla auctor mauris sit amet augue hendrerit aliquam. </p>
+          </div>
+          <div class="col-sm-5">
+            <img src="./integration_maquette_finale/_army.png" alt="Army">
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-4">
+            <img src="./integration_maquette_finale/_weneedyou-1.png" alt="WeNeedYou">
+          </div>
+          <div class="col-sm-8">
+            <div class="row justify-content-center">
+              <h3 class="orange">More info on</h3>
+            </div>
+            <div class="row justify-content-center">
+              <div class="button orange">
+                <div class="row justify-content-center">
+                  <p>sauronrulesTheMall.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="row">
+        <div class="col-6 offset-3 lineOrangeTop"></div>
+      </div>
+      <div class="container-fluid">
+        <div class="row marginBottom">
+          <div class=" row margin-left">
+            <span class="orangeCursive">ij </span>
+            <h2> Contact us </h2><span class="orangeCursive"> ij</span>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="@">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="address">
+              </div>
+              <div class="form-group">
+                <select class="form-control">
+                  <option>I have seen one of them</option>
+                  <option>No see anything</option>
+                  <option>I want my reward</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="6" placeholder="Your message to the master"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6">
+            <img src="./integration_maquette_finale/_map.png" alt="Sauron's Map">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="row centerContent">
+              <a href="#contact">About us</a>
+            </div>
+            <div class="row centerContent">
+              <a href="#fellows">Fellows</a>
+            </div>
+            <div class="row centerContent">
+              <a href="#join">Join our army</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="row centerContent">
+              <a href="#" style="font-size:18px">Faq</a>
+            </div>
+            <div class="row centerContent">
+              <a href="#reward">Reward conditions</a>
+            </div>
+            <div class="row centerContent">
+              <a href="#">Legal mentions</a>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="row centerContent">
+              <a href="#">SAURON4EVER.COM</a>
+              <a href="#">Follow him also on TWITTER</a>
+            </div>
+            <div class="row centerContent">
+              <img src="./integration_maquette_finale/_logo.png" alt="FindThePrecious">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
